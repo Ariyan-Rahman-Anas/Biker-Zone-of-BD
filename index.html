@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biker Zone</title>
+  <link rel="icon" type="image/png" href="./images/slider/bike3.png"/>
+
+  <!-- ===========--- tailwind link --- =========== -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- ===========--- google font link --- =========== -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+  <!-- ===========--- header-section --- =========== -->
+  <header class="md:px-20">
+    <nav>
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <label tabindex="0" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+            </label>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Products</a></li>
+              <li><a href="#">Contact us</a></li>
+            </ul>
+          </div>
+          <a class="btn btn-ghost normal-case text-xl">DaisyUI</a>
+        </div>
+        <div class="navbar-center hidden sm:hidden md:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Contact us</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <a href="https://www.facebook.com/ariyanrahmananas69" target="_blank" class="text-white bg-[#ff6944] font-semibold cursor-pointer py-[.3rem] px-[1rem] rounded-md">Let's talk</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+  <!-- ===========--- home-section --- =========== -->
+    <section id="Home " class=" md:w-[80%] md:mx-auto md:my-16 ">
+      <div class="w-full carousel rounded-md ">
+        <div id="slide1" class="carousel-item relative w-full bg-[#fff1ec] flex items-center justify-between flex-col md:flex-row md:py-10 ">
+          <div class="info w-[100%] lg:w-[60%] 2xl:w-[100%] p-4 lg:px-16 ">
+            <h1 class="text-6xl font-bold">Ride-on R15 V4 <br><span class="text-[#ff6944]">with Smile</span></h1>
+            <p class="py-4 text-gray-500">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+            <a class="text-white bg-[#ff6944] font-semibold cursor-pointer py-[.3rem] px-[1rem] rounded-md">Purchase</a>
+          </div>
+          <div class="banner w-[100%] lg:w-[45%] 2xl:w-[100%] p-4 lg:px-14">
+            <img src="./images/slider/bike3.png" class="w-full" />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide4" class="btn btn-circle bg-transparent">❮</a> 
+              <a href="#slide2" class="btn btn-circle bg-transparent">❯</a>
+            </div>
+          </div>
+        </div> 
+
+
+        <div id="slide2" class="carousel-item relative w-full bg-[#ffe7e0] flex items-center justify-between flex-col md:flex-row md:py-10">
+          <div class="info w-full lg:w-[60%] 2xl:w-[100%] p-4 lg:px-16 ">
+            <h1 class="text-6xl font-bold">Ride-on R15 V4 <br><span class="text-[#ff6944]">with Smile</span></h1>
+            <p class="py-4">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+            <a class="text-white bg-[#ff6944] font-semibold cursor-pointer py-[.3rem] px-[1rem] rounded-md">Purchase</a>
+          </div>
+          <div class="banner w-[100%] lg:w-[45%] 2xl:w-[100%] p-4 lg:px-14">
+            <img src="./images/slider/bike2.png" class="w-full" />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide1" class="btn btn-circle bg-transparent">❮</a> 
+              <a href="#slide3" class="btn btn-circle bg-transparent">❯</a>
+            </div>
+          </div>
+        </div> 
+
+
+        <div id="slide3" class="carousel-item relative w-full bg-[#ffe7e0] flex items-center justify-between flex-col md:flex-row md:py-10">
+          <div class="info w-full lg:w-[60%] 2xl:w-[100%] p-4 lg:px-16 ">
+            <h1 class="text-6xl font-bold">Ride-on R15 V4 <br><span class="text-[#ff6944]">with Smile</span></h1>
+            <p class="py-4">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+            <a class="text-white bg-[#ff6944] font-semibold cursor-pointer py-[.3rem] px-[1rem] rounded-md">Purchase</a>
+          </div>
+          <div class="banner w-[100%] lg:w-[45%] 2xl:w-[100%] p-4 lg:px-14">
+            <img src="./images/slider/bike1.png" class="w-full" />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide2" class="btn btn-circle bg-transparent">❮</a> 
+              <a href="#slide4" class="btn btn-circle bg-transparent">❯</a>
+            </div>
+          </div>
+        </div> 
+
+
+        <div id="slide4" class="carousel-item relative w-full bg-[#ffe7e0] flex items-center justify-between flex-col md:flex-row md:py-10">
+          <div class="info w-full lg:w-[60%] 2xl:w-[100%] p-4 lg:px-16 ">
+            <h1 class="text-6xl font-bold">Ride-on R15 V4 <br><span class="text-[#ff6944]">with Smile</span></h1>
+            <p class="py-4">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+            <a class="text-white bg-[#ff6944] font-semibold cursor-pointer py-[.3rem] px-[1rem] rounded-md">Purchase</a>
+          </div>
+          <div class="banner w-[100%] lg:w-[45%] 2xl:w-[100%] p-4 lg:px-14">
+            <img src="./images/slider/bike4.png" class="w-full" />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide3" class="btn btn-circle bg-transparent">❮</a> 
+              <a href="#slide1" class="btn btn-circle bg-transparent">❯</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <!-- ===========--- featured-section --- =========== -->
+    <section id="Featured" class="md:w-[80%] md:mx-auto my-20">
+      <h1 class="text-4xl text-center font-bold"><span class="text-[#ff6944]">Featured Bikes</span> of the Year</h1>
+      <p  class="py-2 text-gray-500 text-center">Best bike collection </p>
+      <div class="bikes-are grid grid-cols-1 items-center place-items-center p-8 gap-x-8 md:grid-cols- md:grid-cols-3">
+        <img src="./images/others/feature-bike.png" alt="">
+        <img src="./images/slider/bike3.png" alt="">
+        <img src="./images/others/feature-bike.png" alt="">
+      </div>
+    </section>
+
+  <!-- ===========--- latest-bike-section --- =========== -->
+    <section id="Latest-Bike" class="md:w-[80%] mx-4 md:mx-auto my-20">
+      <h1 class="text-4xl font-bold text-center"><span class="text-[#ff6944] ">Latest</span> News</h1>
+      <div class="bikes-are grid grid-cols-1 place-items-center gap-4 md:grid-cols-2 lg:grid-cols-3 text-center md:text-left">
+        <div class="bike shadow-md rounded-md px-4 py-6">
+          <img class="mx-auto" src="./images/others/latest1.png" alt="">
+          <h2 class="text-xl font-bold">Ducati XDIAVEL S-73</h2>
+          <p class="text-gray-500 pt-2 pb-8" >Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. Lacus, fermentum amet
+            faucibus sed id nisi lectus at.</p>
+            <a class="text-white bg-[#ff6944] font-semibold cursor-pointer mt-[1rem] py-[.5rem] px-[1rem] rounded-md">Read more</a>
+        </div>
+        <div class="bike shadow-md rounded-md  px-4 py-6">
+          <img class="mx-auto" src="./images/others/latest1.png" alt="">
+          <h2 class="text-xl font-bold">Motorcycles & Scooters</h2>
+          <p class="text-gray-500 pt-2 pb-8" >Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. Lacus, fermentum amet
+            faucibus sed id nisi lectus at.</p>
+            <a class="text-white bg-[#ff6944] font-semibold cursor-pointer mt-[1rem] py-[.5rem] px-[1rem] rounded-md">Read more</a>
+        </div>
+        <div class="bike shadow-md rounded-md  px-4 py-6">
+          <img class="mx-auto" src="./images/others/latest1.png" alt="">
+          <h2 class="text-xl font-bold">Honda CBR500R-2021</h2>
+          <p class="text-gray-500 pt-2 pb-8" >Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. Lacus, fermentum amet
+            faucibus sed id nisi lectus at.</p>
+            <a class="text-white bg-[#ff6944] font-semibold cursor-pointer mt-[1rem] py-[.5rem] px-[1rem] rounded-md">Read more</a>
+        </div>
+      </div>
+    </section>
+
+  <!-- ===========--- clients-says-section --- =========== -->
+    <section id="Clients-says" class="md:w-[80%] mx-4 md:mx-auto my-20">
+      <h1 class="text-4xl font-bold text-center pb-3"><span class="text-[#ff6944]">Happy clients</span> says</h1>
+      <div class="clients-are grid grid-cols-1 place-items-center gap-4 md:grid-cols-2 lg:grid-cols-3">
+        <div class="client rounded-md shadow-md p-4  text-center">
+          <img class="w-[12rem] md:w-[9rem] mx-auto" src="./images/others/user-1.png" alt="">
+          <p class="text-gray-500 py-4">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
+          <div class="rating">
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          </div> <br>
+          <strong class="text-blue-800">Jhone Doe</strong>
+          <p class="font-semibold">Banker</p>
+        </div>
+        <div class="client rounded-md shadow-md p-4  text-center">
+          <img class="w-[12rem] md:w-[9rem] mx-auto" src="./images/others/user-3.png" alt="">
+          <p class="text-gray-500 py-4">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
+          <div class="rating">
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          </div> <br>
+          <strong class="text-blue-800">Regina Miles</strong>
+          <p class="font-semibold">Marketer</p>
+        </div>
+        <div class="client rounded-md shadow-md p-4  text-center">
+          <img class="w-[12rem] md:w-[9rem] mx-auto" src="./images/others/user-2.png" alt="">
+          <p class="text-gray-500 py-4">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
+          <div class="rating">
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          </div> <br>
+          <strong class="text-blue-800">Samelia Miles</strong>
+          <p class="font-semibold">Developer</p>
+        </div>
+      </div>
+    </section>
+
+  <!-- ===========--- faq-section --- =========== -->
+    <section id="FAQ" class="md:w-[80%] mx-4 md:mx-auto my-20">
+      <h1 class="text-4xl font-bold text-center mt-8 pb-3">Frequently Asked<span class="text-[#ff6944]"> Questions</span></h1>
+      <div class="faq-content grid grid-cols-1 gap-y-4 md:grid-cols-2 place-items-center  ">
+        <div class="faq-banner">
+          <img class="w-[60%]" src="./images/others/faq.png" alt="">
+        </div>
+        <div class="faq-ques">
+          <div class="collapse collapse-arrow bg-base-200  mb-8">
+            <input type="radio" name="my-accordion-2" checked="checked" /> 
+            <div class="collapse-title text-xl font-medium">
+              What types of bikes do you offer?
+            </div>
+            <div class="collapse-content"> 
+              <p>Customers often want to know about the variety of bikes available, such as mountain bikes, road bikes, hybrid bikes, electric bikes, etc.</p>
+            </div>
+          </div>
+          <div class="collapse collapse-arrow bg-base-200 mb-8">
+            <input type="radio" name="my-accordion-2" /> 
+            <div class="collapse-title text-xl font-medium">
+              What are the maintenance services you provide?
+            </div>
+            <div class="collapse-content"> 
+              <p>Customers want to know if the bike shop offers services like tune-ups, repairs, and maintenance packages.</p>
+            </div>
+          </div>
+          <div class="collapse collapse-arrow bg-base-200">
+            <input type="radio" name="my-accordion-2" /> 
+            <div class="collapse-title text-xl font-medium">
+              Do you sell bike accessories?
+            </div>
+            <div class="collapse-content"> 
+              <p>Accessories like helmets, locks, lights, racks, and bike apparel are often sought after by customers.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <!-- ===========--- footer-section --- =========== -->
+  <footer class="text-white bg-black flex items-start justify-between flex-col pt-8 md:flex-row md:px-20">
+      <div class="footer-left p-4">
+        <div class="social-icons text-white text-2xl mb-4 flex items-center justify-between sm:w-[20%] md:w-[20%] ">
+          <a href="https://www.facebook.com/ariyanrahmananas69" target="_blank">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/ariyanrahmananas/" target="_blank">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a href="https://www.instagram.com/mr.ariyan.rahman.anas/" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </div>
+        <div class="left-upper flex items-start justify-between list-none py-2 w-[40%]">
+          <li>Download Now</li>
+          <li>License</li>
+        </div>
+        <div class="left-middle grid grid-cols-3 place-items-start list-none py-4 md:grid-cols-6">
+          <li>About</li>
+          <li>Features</li>
+          <li>Pricing</li>
+          <li>Careers</li>
+          <li>Help</li>
+          <li>Privacy Policy</li>
+        </div>
+        <div class="left-down">
+          <p>&copy;CopyRights-2023 | All rights reserved <a href="https://www.facebook.com/ariyanrahmananas69" target="_blank" class="text-[#ff6944] font-semibold ">Ariyan Rahman Anas</a></p>
+        </div>
+      </div>
+      <div class="footer-right p-4">
+        <p class="text-center">Get the App</p>
+        <div class="footer-right grid grid-cols-2 md:grid-cols-1 place-items-center p-4 gap-4" >
+          <img class="w-[10rem]" src="./images/others/android.png" alt="">
+          <img class="w-[10rem]" src="./images/others/ios.png" alt="">
+        </div>
+      </div>
+  </footer>
+  <!-- ===========--- completed the project --- =========== -->
+</body>
+</html>
